@@ -1,6 +1,6 @@
-from pypeds.shape2d import *
-from pypeds.example.entity import *
-from pypeds.gui.drawer.shape_drawer import *
+from PedSimulation.shape2d import *
+from PedSimulation.example.entity import *
+from PedSimulation.gui.drawer.shape_drawer import *
 import random
 
 

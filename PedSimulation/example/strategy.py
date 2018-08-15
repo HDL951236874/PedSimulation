@@ -1,7 +1,7 @@
-from pypeds.entity import Goal
-from pypeds.shape2d import Point2D, Circle2D
-from pypeds.strategy import Strategy, Path, StaticStrategy
-from pypeds.utils import shortest_path
+from PedSimulation.entity import Goal
+from PedSimulation.shape2d import Point2D, Circle2D
+from PedSimulation.strategy import Strategy, Path, StaticStrategy
+from PedSimulation.utils import shortest_path
 
 class NearestGoalStrategy(StaticStrategy):
 

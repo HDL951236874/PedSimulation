@@ -1,4 +1,4 @@
-from pypeds.shape2d import Point2D
+from PedSimulation.shape2d import Point2D
 
 
 def shortest_path(map, dest, default_value = 0, block_value = 1):

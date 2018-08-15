@@ -1,15 +1,15 @@
-from pypeds.scene import *
-from pypeds.gui.ui.mainwindow_main import Ui_MainWindow_Main
-from pypeds.gui.ui.mainwindow_setting import Ui_MainWindow_Setting, Dragebutton
-from pypeds.gui.drawer.drawer_register import SceneDrawerRegister
+from PedSimulation.scene import *
+from PedSimulation.gui.ui.mainwindow_main import Ui_MainWindow_Main
+from PedSimulation.gui.ui.mainwindow_setting import Ui_MainWindow_Setting, Dragebutton
+from PedSimulation.gui.drawer.drawer_register import SceneDrawerRegister
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import QDesktopWidget
-from pypeds.generator import *
-from pypeds.example.model.sfmodel import SFModel
+from PedSimulation.generator import *
+from PedSimulation.example.model.sfmodel import SFModel
 from PyQt5.QtWidgets import QWidget
 from PyQt5 import QtGui
-from pypeds.example.strategy import NearestGoalStrategy
-from pypeds.example.listener import PedestrianEscapeListener
+from PedSimulation.example.strategy import NearestGoalStrategy
+from PedSimulation.example.listener import PedestrianEscapeListener
 from PyQt5.QtCore import Qt
 
 
@@ -144,7 +144,7 @@ class SettingWindow(Ui_MainWindow_Setting):
         #change the model from the SFM to CSVmodel
         scene = Scene()
         # scene.model = SFModel(0.004)
-        scene.add_model(CSVModel(0.004,"/home/hdl/PycharmProjects/pypeds/pypeds/example/resources/ffffffffffff.csv", scene))
+        scene.add_model(CSVModel(0.004,"/home/hdl/PycharmProjects/PedSimulation/PedSimulation/example/resources/ffffffffffff.csv", scene))
         print(scene.entities)
         # scene.add_listener(PedestrianEscapeListener())
         # scene.add_listener(NearestGoalStrategy())

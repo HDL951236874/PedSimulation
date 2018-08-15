@@ -1,8 +1,8 @@
-from pypeds.model.model import *
-from pypeds.example.model.regulation import *
-from pypeds.shape2d import Vector2D
+from PedSimulation.model.model import *
+from PedSimulation.example.model.regulation import *
+from PedSimulation.shape2d import Vector2D
 import csv
-from pypeds.generator import *
+from PedSimulation.generator import *
 
 
 class CSVModel(Model):

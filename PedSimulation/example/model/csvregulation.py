@@ -1,6 +1,6 @@
-from pypeds.model.regulation import Regulation
-from pypeds.example.entity import *
-from pypeds.model.affection import *
+from PedSimulation.model.regulation import Regulation
+from PedSimulation.example.entity import *
+from PedSimulation.model.affection import *
 import csv
 import time
 

@@ -1,12 +1,12 @@
-from pypeds.example.entity import Wall
-from pypeds.pool import EntityPool
-from pypeds.entity import Entity
+from PedSimulation.example.entity import Wall
+from PedSimulation.pool import EntityPool
+from PedSimulation.entity import Entity
 from abc import ABC, abstractmethod
 from threading import Thread
-from pypeds.shape2d import *
+from PedSimulation.shape2d import *
 import time
-from pypeds.example.model.csvmodel import *
-from pypeds.generator import *
+from PedSimulation.example.model.csvmodel import *
+from PedSimulation.generator import *
 
 class Scene(Thread):
 

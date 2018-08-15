@@ -1,5 +1,5 @@
-from pypeds.scene import SceneListener
-from pypeds.entity import Agent, RotateAgent
+from PedSimulation.scene import SceneListener
+from PedSimulation.entity import Agent, RotateAgent
 import math
 
 class PedestrianEscapeListener(SceneListener):

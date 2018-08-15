@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from pypeds.example.model.csvregulation import *
-from pypeds.model.regulation import SelfDrivenRegulation, Regulation
+from PedSimulation.example.model.csvregulation import *
+from PedSimulation.model.regulation import SelfDrivenRegulation, Regulation
 
 
 class Model(ABC):

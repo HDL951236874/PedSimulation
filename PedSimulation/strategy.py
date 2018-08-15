@@ -1,5 +1,5 @@
-from pypeds.entity import Agent, Goal ,RotateAgent
-from pypeds.scene import SceneListener
+from PedSimulation.entity import Agent, Goal ,RotateAgent
+from PedSimulation.scene import SceneListener
 from abc import ABC, abstractmethod
 
 

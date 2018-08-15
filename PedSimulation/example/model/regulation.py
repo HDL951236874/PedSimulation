@@ -1,11 +1,11 @@
-from pypeds.example.entity import *
-from pypeds.entity import *
-from pypeds.model.affection import Affection
-from pypeds.model.regulation import SingleTargetRegulation, Regulation, SelfDrivenRegulation
+from PedSimulation.example.entity import *
+from PedSimulation.entity import *
+from PedSimulation.model.affection import Affection
+from PedSimulation.model.regulation import SingleTargetRegulation, Regulation, SelfDrivenRegulation
 import math
 
 
-from pypeds.shape2d import Vector2D, Ellipse2D
+from PedSimulation.shape2d import Vector2D, Ellipse2D
 
 
 class PsychologicalForceRegulation(SingleTargetRegulation):

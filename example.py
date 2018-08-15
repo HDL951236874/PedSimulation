@@ -1,9 +1,9 @@
-from pypeds.example.model.sfmodel import SFModel
-from pypeds.example.listener import *
-from pypeds.example.strategy import NearestGoalStrategy
-from pypeds.scene import Scene
-from pypeds.gui.panel import *
-from pypeds.gui.ui.mainwindow_main import *
+from PedSimulation.example.model.sfmodel import SFModel
+from PedSimulation.example.listener import *
+from PedSimulation.example.strategy import NearestGoalStrategy
+from PedSimulation.scene import Scene
+from PedSimulation.gui.panel import *
+from PedSimulation.gui.ui.mainwindow_main import *
 from PyQt5 import QtWidgets
 import sys
 import qdarkstyle

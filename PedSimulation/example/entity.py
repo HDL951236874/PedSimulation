@@ -1,5 +1,5 @@
-from pypeds.entity import *
-from pypeds.shape2d import *
+from PedSimulation.entity import *
+from PedSimulation.shape2d import *
 
 class Pedestrian(Agent):
     def __init__(self, shape):

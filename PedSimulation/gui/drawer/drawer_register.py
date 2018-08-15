@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
-from pypeds.shape2d import *
-from pypeds.scene import *
-from pypeds.entity import *
-from pypeds.gui.drawer.shape_drawer import *
-from pypeds.gui.drawer.scene_drawer import *
-from pypeds.gui.drawer.entity_drawer import *
+from PedSimulation.shape2d import *
+from PedSimulation.scene import *
+from PedSimulation.entity import *
+from PedSimulation.gui.drawer.shape_drawer import *
+from PedSimulation.gui.drawer.scene_drawer import *
+from PedSimulation.gui.drawer.entity_drawer import *
 
 
 # TODO write docs
