@@ -135,19 +135,21 @@ class SettingWindow(Ui_MainWindow_Setting):
         self.pushButton_20.clicked.connect(self.create_scene)
         self.pushButton_21.clicked.connect(self.cancel)
         self.comboBox.currentIndexChanged.connect(self.scene_select)
+        # self.comboBox_2.
+
 
     def create_scene(self):
         """
         use the button to create a scene(Thread)
-        :return:
+        :return:the scene
         """
-        #change the model from the SFM to CSVmodel
         scene = Scene()
-        # scene.model = SFModel(0.004)
-        scene.add_model(CSVModel(0.004,"/home/hdl/PycharmProjects/PedSimulation/PedSimulation/example/resources/ffffffffffff.csv", scene))
-        print(scene.entities)
-        # scene.add_listener(PedestrianEscapeListener())
-        # scene.add_listener(NearestGoalStrategy())
+        if self.comboBox_2.currentText() == "SFModel":
+            scene.model = SFModel(0.004)
+            scene.add_listener(PedestrianEscapeListener())
+            scene.add_listener(NearestGoalStrategy())
+        if self.comboBox_2.currentText() == "CsvModel":
+            scene.add_model(CSVModel(0.004,"/home/hdl/PycharmProjects/PedSimulation/PedSimulation/example/resources/ffffffffffff.csv", scene))
         self.scenePool.append(scene)
         self.comboBox.addItem(scene.getName())
         self.mainwindow.comboBox.addItem(scene.getName())

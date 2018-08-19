@@ -99,6 +99,16 @@
       <height>30</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>SFModel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CsvModel</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -301,7 +311,7 @@
      <rect>
       <x>820</x>
       <y>220</y>
-      <width>491</width>
+      <width>501</width>
       <height>251</height>
      </rect>
     </property>
