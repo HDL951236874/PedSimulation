@@ -6,6 +6,7 @@ import random
 
 ##TODO the generator of the entity shaped like rectangle has not been finished
 
+
 class Generator(object):
     """
     Generator(.....).gird_generate()

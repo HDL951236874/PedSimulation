@@ -22,9 +22,17 @@ class RecordPed(Pedestrian):
         if affection.a_type == "Csv":
             self.position = affection.value
 
+class EllipseCsvPed(RotateAgent):
+    def __init__(self,data_list = None):
+        super(EllipseCsvPed, self).__init__(Ellipse2D)
+        self.data_list = data_list
+
+    def affected(self, affection):
+        if affection.a_type == "":
+            pass
+
 class SafetyRegion(Goal):
     pass
-
 
 class RotatePedestrian(RotateAgent):
     def __init__(self, shape):

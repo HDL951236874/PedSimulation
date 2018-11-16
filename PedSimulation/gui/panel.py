@@ -154,6 +154,13 @@ class SettingWindow(Ui_MainWindow_Setting):
         self.comboBox.addItem(scene.getName())
         self.mainwindow.comboBox.addItem(scene.getName())
 
+    def dfault_generator(self):
+        txt_r = open("PedSimulation/example/resources/original.txt","r")
+        for row in txt_r:
+            self.common_generate()
+        # pass
+
+
     def scene_select(self):
         # print(self.scene)
         if self.scene !=None:

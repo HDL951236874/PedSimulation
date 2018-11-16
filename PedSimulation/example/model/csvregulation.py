@@ -4,7 +4,6 @@ from PedSimulation.model.affection import *
 import csv
 import time
 
-
 class CsvRegulation():
 
     def __init__(self, model, csv):
